@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    color: white;
+    background-color: black;
+    background-image: url(../img/Autos/Ferrari-F40-1992-8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 40px;
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login img {
+    width: 200px;
+    height: 200px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    height: 50px;
+    width: auto;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="submit"]{
+    background:rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.login a:hover {
+    background-color: rgb(85, 85, 85);
+    color white
+}
+
