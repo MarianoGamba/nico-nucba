@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,12 +8,16 @@
 
 body {
     font-family: "poppins", sans-serif;
-    color: white;
-    background-color: black;
-    background-image: url(../img/Autos/Ferrari-F40-1992-8.jpg);
+    
+    background: #000;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
  
+}
+
+.img-background{
+    width: 100%;
 }
 
 .container {
@@ -76,4 +80,3 @@ input[type="submit"]{
     background-color: rgb(85, 85, 85);
     color: white;
 }
-
